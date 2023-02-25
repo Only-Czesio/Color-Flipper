@@ -1,0 +1,65 @@
+* {
+    margin : 0;
+}
+body {
+    background-color: #f1f5f8;
+}
+.logo {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 35px;
+    color : palevioletred;
+}
+.logo span {
+    color :turquoise;
+}
+.navigation-bar {
+    background-color: rgb(197, 166, 166);
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+}
+.left-link {
+    color: palevioletred;
+}
+.right-link {
+    color: turquoise;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+}
+main {
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.container h2 {
+    font-size: 55px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    line-height: 1.25;
+    background: turquoise;
+    color: palevioletred;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 2.5rem;
+}
+.btn {
+    height: 100px;
+    font-size: 35px;
+    color: palevioletred;
+    background-color: turquoise;
+    border-radius: 25px;
+    border-color: aqua;
+}
